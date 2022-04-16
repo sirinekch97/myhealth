@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="match_parent"
+  android:background="@drawable/sh"
+
+  android:layout_height="match_parent">
+  <TextView
+    android:id="@+id/fstTxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="150dp"
+    android:text="Num prog" />
+  <EditText
+    android:id="@+id/txtNumP"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10"/>
+  <TextView
+    android:id="@+id/secTxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Date de debut"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/txtDatedeb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+  <TextView
+    android:id="@+id/thirdTxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Durée"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/txtDuree"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+  <TextView
+    android:id="@+id/fourthTxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Maladie"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/txtmaladie"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+
+  <Button
+    android:id="@+id/btnSave"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="150dp"
+
+    android:background="@drawable/rdb"
+    android:text="Ajouter" />
+</LinearLayout>

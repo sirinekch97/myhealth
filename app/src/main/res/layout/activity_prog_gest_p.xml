@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+  android:layout_width="fill_parent" android:layout_height="fill_parent"
+  android:background="@drawable/sh"
+
+  android:orientation="vertical">
+
+
+  <ListView
+    android:id="@+id/listView3a"
+    android:layout_width="427dp"
+
+    android:layout_height="405dp" />
+
+  <Button
+    android:id="@+id/addmeda"
+    android:layout_width="350dp"
+    android:layout_marginLeft="7dp"
+    android:layout_height="45dp"
+    android:background="@drawable/rdb"
+    android:text="Ajouter médicament" />
+  <View
+    android:layout_width="0dp"
+    android:layout_height="50dp"
+    android:layout_weight="1" />
+  <Button
+    android:id="@+id/tempa"
+    android:layout_width="350dp"
+    android:layout_marginLeft="7dp"
+    android:layout_height="45dp"
+    android:background="@drawable/rdb"
+    android:text="Temperatures" />
+  <View
+    android:layout_width="0dp"
+    android:layout_height="50dp"
+    android:layout_weight="1" />
+  <Button
+    android:id="@+id/suppa"
+    android:layout_width="350dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="7dp"
+    android:background="@drawable/rdb"
+    android:paddingTop="20px"
+    android:radius="50dp"
+    android:text="Supprimer ce programme" />
+  <View
+    android:layout_width="0dp"
+    android:layout_height="50dp"
+    android:layout_weight="1" />
+
+
+
+</LinearLayout>

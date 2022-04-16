@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="match_parent"
+  android:background="@drawable/sh"
+
+  android:layout_height="match_parent">
+  <TextView
+    android:id="@+id/tvnt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="150dp"
+    android:text="Num temp:" />
+  <EditText
+    android:id="@+id/pt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10"/>
+  <TextView
+    android:id="@+id/tvdg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Degré:"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/dg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+
+  <Button
+    android:id="@+id/Savetp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="150dp"
+
+    android:background="@drawable/rdb"
+    android:text="Ajouter" />
+</LinearLayout>

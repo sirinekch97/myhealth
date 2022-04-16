@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="match_parent"
+  android:background="@drawable/sh"
+
+  android:layout_height="match_parent">
+  <TextView
+    android:id="@+id/txtrefmed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="150dp"
+    android:text="Ref med" />
+  <EditText
+    android:id="@+id/medrefa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10"/>
+  <TextView
+    android:id="@+id/txtdatecons"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Date de debut"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/dateconsa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+  <TextView
+    android:id="@+id/Txtdure"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Durée"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/dureetxta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+
+  <Button
+    android:id="@+id/btnSavea"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rdb"
+    android:layout_marginLeft="150dp"
+    android:text="Ajouter" />
+</LinearLayout>

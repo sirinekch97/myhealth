@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+  android:layout_width="fill_parent"
+
+  android:layout_height="wrap_content"
+
+  android:orientation="vertical"
+
+  android:padding="6dip" >
+
+
+  <TextView
+
+    android:id="@+id/textView1"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_alignParentLeft="true"
+
+    android:layout_alignParentTop="true"
+
+    android:text="num_p:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+  <TextView
+
+    android:id="@+id/textView2"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_below="@+id/textView1"
+
+    android:layout_alignLeft="@+id/textView1"
+
+    android:text="date_debut:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+  <TextView
+
+    android:id="@+id/textView3"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_below="@+id/textView2"
+
+    android:layout_alignLeft="@+id/textView2"
+
+    android:text="durée:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+  <TextView
+
+    android:id="@+id/textView4"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_below="@+id/textView3"
+
+    android:layout_alignLeft="@+id/textView3"
+
+    android:text="maladie:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+  <TextView
+
+    android:id="@+id/textView5"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_below="@+id/textView4"
+
+    android:layout_alignLeft="@+id/textView4"
+
+    android:text="patientid:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+  <TextView
+
+    android:id="@+id/duree1"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_alignBaseline="@+id/textView3"
+
+    android:layout_alignBottom="@+id/textView3"
+
+    android:layout_marginLeft="63dp"
+
+    android:layout_marginBottom="6dp"
+    android:layout_toRightOf="@+id/textView3"
+    android:text="TextView" />
+
+  <TextView
+
+    android:id="@+id/maladie1"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_alignBaseline="@+id/textView4"
+
+    android:layout_alignBottom="@+id/textView4"
+
+    android:layout_alignLeft="@+id/date_debut1"
+
+    android:text="TextView" />
+
+  <TextView
+
+    android:id="@+id/patient"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_alignBaseline="@+id/textView5"
+
+    android:layout_alignBottom="@+id/textView5"
+
+    android:layout_alignLeft="@+id/date_debut1"
+
+    android:text="TextView" />
+  <TextView
+
+    android:id="@+id/date_debut1"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_above="@+id/textView3"
+
+    android:layout_marginLeft="64dp"
+
+    android:layout_marginBottom="1dp"
+    android:layout_toRightOf="@+id/textView3"
+    android:text="TextView" />
+
+  <TextView
+
+    android:id="@+id/num_p1"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_above="@+id/textView2"
+
+    android:layout_alignLeft="@+id/date_debut1"
+
+    android:layout_marginLeft="-2dp"
+    android:layout_marginBottom="3dp"
+    android:text="TextView" />
+
+  <TextView
+
+    android:id="@+id/txt"
+
+
+    android:layout_width="115dp"
+    android:layout_height="100dp"
+
+    android:layout_marginLeft="200dp"
+
+
+    android:text="cliquez ici pour plus d'informations sur les medicaments de ce programme " />
+
+</RelativeLayout>

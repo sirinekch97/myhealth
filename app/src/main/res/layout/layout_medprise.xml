@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+  android:layout_width="fill_parent"
+
+  android:layout_height="wrap_content"
+
+  android:orientation="vertical"
+
+  android:padding="6dip" >
+
+
+  <TextView
+
+    android:id="@+id/textView7"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_alignParentLeft="true"
+
+    android:layout_alignParentTop="true"
+
+    android:text="Num_prise:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+  <TextView
+
+    android:id="@+id/textView8"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_below="@+id/textView7"
+
+    android:layout_alignLeft="@+id/textView7"
+
+    android:text="Date:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+  <TextView
+
+    android:id="@+id/textView9"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_below="@+id/textView8"
+
+    android:layout_alignLeft="@+id/textView8"
+
+    android:text="Heure:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+  <TextView
+
+    android:id="@+id/textView11"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_below="@+id/textView9"
+
+    android:layout_alignLeft="@+id/textView9"
+
+    android:text="Quantité:"
+
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+  <TextView
+
+    android:id="@+id/heure"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_alignBaseline="@+id/textView9"
+
+    android:layout_alignBottom="@+id/textView9"
+
+    android:layout_marginLeft="49dp"
+
+    android:layout_marginBottom="1dp"
+    android:layout_toRightOf="@+id/textView9"
+    android:text="TextView" />
+
+  <TextView
+
+    android:id="@+id/qtt"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_alignBaseline="@+id/textView11"
+
+    android:layout_alignBottom="@+id/textView11"
+
+    android:layout_alignLeft="@+id/date"
+
+    android:text="TextView" />
+
+
+  <TextView
+
+    android:id="@+id/date"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_above="@+id/textView9"
+
+    android:layout_marginLeft="50dp"
+
+    android:layout_marginBottom="6dp"
+    android:layout_toRightOf="@+id/textView9"
+    android:text="TextView" />
+
+  <TextView
+
+    android:id="@+id/num_prise"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_above="@+id/textView8"
+
+    android:layout_alignLeft="@+id/date"
+
+    android:layout_marginLeft="-13dp"
+    android:layout_marginBottom="6dp"
+    android:text="TextView" />
+
+  <TextView
+
+    android:id="@+id/txt"
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_marginLeft="190dp"
+
+
+    android:text="Description:" />
+
+  <TextView
+
+    android:id="@+id/desc"
+
+    android:layout_width="83dp"
+
+    android:layout_height="50dp"
+
+    android:layout_above="@+id/txt"
+
+    android:layout_alignLeft="@+id/date"
+
+    android:layout_marginLeft="85dp"
+    android:layout_marginBottom="-74dp"
+    android:text="TextView" />
+
+  <TextView
+
+    android:id="@+id/txt1"
+
+
+    android:layout_width="71dp"
+    android:layout_height="86dp"
+
+    android:layout_marginLeft="280dp"
+
+
+    android:text="Pour supprimer cette prise cliquez ici " />
+
+</RelativeLayout>

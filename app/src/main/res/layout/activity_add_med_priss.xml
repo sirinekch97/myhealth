@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="match_parent"
+  android:background="@drawable/sh"
+
+  android:layout_height="match_parent">
+  <TextView
+    android:id="@+id/txtnp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="150dp"
+    android:text="Num Prise" />
+  <EditText
+    android:id="@+id/npr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10"/>
+  <TextView
+    android:id="@+id/txtdesc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Description"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/descp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+  <TextView
+    android:id="@+id/Txtdate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Date"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/datte"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+  <TextView
+    android:id="@+id/Txthr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Heure"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/hr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+  <TextView
+    android:id="@+id/Txtqt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Quantité"
+    android:layout_marginLeft="100dp" />
+  <EditText
+    android:id="@+id/qtte"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:ems="10" />
+  <Button
+    android:id="@+id/Save"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="150dp"
+    android:background="@drawable/rdb"
+
+    android:text="Ajouter" />
+</LinearLayout>
